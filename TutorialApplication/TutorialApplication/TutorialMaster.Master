@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TutorialMaster.master.cs" Inherits="TutorialApplication.TutorialMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="header">
+                <h1>My Tutorial</h1>
+                <hr />
+                <ul>
+                    <li><a href="Home.aspx">Home</a></li>
+                    <li><a href="WebForm1.aspx">Tutorials</a></li>
+                    <li><a href="PracticeTest.aspx">PracticeTest</a></li>
+                </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

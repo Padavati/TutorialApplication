@@ -1,0 +1,33 @@
+﻿<style >
+
+#btnLogin {background-color: cadetblue;font-weight: bolder;}
+#btnRegister {background-color: cadetblue;font-weight: bolder;}
+
+h1 {color: brown;font-size: 20pt;font-family: Verdana;font-weight: bolder;}
+table {background-color: antiquewhite;}
+div {background-color: floralwhite}
+
+.tablestyle1{font-family:Arial;}
+
+#btnSave {
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+#btnEdit {
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+#btnUpdate {
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+#btnDelete {
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+#btnReset {
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+
+</style >
